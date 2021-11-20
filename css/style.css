@@ -1,10 +1,27 @@
+.underlined {
+	text-decoration: line-through; /* зачеркивает*/
+	font-size: 160%;
+	display: inline;
+}
+
 #header {
     background: #2F4F4F;
     height: 160px;
-   }
-   
-p {
-	text-indent: 20px;/* Отступ первой строки в пикселах */
+}
+
+.btn { margin-left: 30px; } /*отступ*/
+
+input[type=checkbox] { 
+transform: scale(2); 
+-ms-transform: scale(2); 
+-webkit-transform: scale(2); 
+padding: 10px; 
+}
+
+span
+{
+	text-align: center;
+    margin-right: auto;
 }
 
 input[type=text]{
@@ -31,78 +48,14 @@ body {
 	background-color: #705335;
 }
 
-ol { 
-	background-Color: silver;
-}
-
-.navList li {
-		display: block;
-		padding: 10px;
-		
-	}
-.navList li:hover { /*при наведение меняем оттенок*/
-	background-color: #8673A1;
-}
-
-oor button:hover{
-	background-color:#F4A460;
-}
-rr button:hover{
-	background-color:#6DAE81;
-	color:black;
-}
-rr button{
-	color:rgba(0, 0, 0, 0); /*прозрачный текст*/
-	background-color:silver;
-	border: 0;
-}
-
 .navList {
 	display:inline-block;
-	width: 95%;
-	box-shadow:2px 4px 8px rgba(0,0,0,0.2)
+	width: 80%;
+	box-shadow:10px 3px 25px rgba(0,0,0,0.26);
+	font-size: 160%;
 }
 
 
-.inputIcon button {
-	position:absolute;
-	right:0px;
-	padding:10px 15px;
-}
-
-r button {
-	position:absolute;
-	left:8px;
-	top: 175px;
-}
-
-r2 button {
-	position:absolute;
-	padding:10px 15px;
-	left:8px;
-	top: 247px;
-}
-
-r3 button {
-	position:absolute;
-	left:8px;
-	top: 318px;
-}
-
-or button {
-	position:absolute;
-	top: 174px;
-}
-
-or2 button {
-	position:absolute;
-	top: 245px;
-}
-
-or3 button {
-	position:absolute;
-	top: 317px;
-}
 
 
 
